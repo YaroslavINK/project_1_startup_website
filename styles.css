@@ -426,7 +426,7 @@
 .header__menu-icon {
   height: 13px;
   width: 18px;
-  background-image: url("../img/icon-hamburger.png");
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png);
   display: inline-block;
 }
 .header .logo__description {
@@ -466,7 +466,7 @@
   width: 8px;
   height: 5px;
   display: inline-block;
-  background-image: url(img/arrow.png);
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png);
   margin-left: 11px;
 }
 
@@ -733,6 +733,11 @@
   border-radius: 8px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+}
+.audience__categories-card:hover {
+  background-color: #3141c5;
+  color: #fff;
+  cursor: pointer;
 }
 .audience__categories-card:last-child {
   margin-bottom: 0;
